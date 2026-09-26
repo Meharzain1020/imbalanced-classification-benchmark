@@ -1,4 +1,4 @@
-# Imbalanced Classification & Calibration Benchmark
+<img width="1376" height="768" alt="mage" src="https://github.com/user-attachments/assets/399f8056-4179-418a-885a-cd34893ec6c9" />
 
 A statistical machine learning benchmark evaluating class-imbalance strategies (97:3 ratio) across **Random Forest** and **PyTorch MLP** architectures using **Stratified 5-Fold Cross-Validation**. 
 
@@ -31,6 +31,10 @@ When handling severe class imbalance, standard interventions like **SMOTE** (syn
 
 ---
 
+<img width="2400" height="1800" alt="calibration_curves" src="https://github.com/user-attachments/assets/bebd7ee5-0ed6-43d8-aebd-b8c8ee16100a" />
+<img width="2700" height="1800" alt="pr_curves" src="https://github.com/user-attachments/assets/4616df17-7c85-4314-bd05-5215816a8989" />
+
+
 ## Domain Relevance & Mitacs Project Alignment
 
 This project models complex data distributions common in computational science and machine learning research:
@@ -44,7 +48,7 @@ This project models complex data distributions common in computational science a
 
 ## Repository Structure
 
-```text
+```
 imbalanced-classification-benchmark/
 ├── data/                      # Runtime dataset directory
 ├── notebook/
@@ -67,3 +71,20 @@ imbalanced-classification-benchmark/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+
+```
+
+## How to Use
+
+1. Install dependencies from `requirements.txt` by writing in terminal `pip install -r requirements.txt`.
+2. Run `python main.py` to optimize input and generate reports
+3. Check `outputs/figures/` for visualizations 
+
+---
+
+
+## Author
+
+**Zia Ur Rehman**
+
+**AI Engineer**
